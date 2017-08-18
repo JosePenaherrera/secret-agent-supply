@@ -21,6 +21,7 @@ h4 {
 
 a {
   color: #fff;
+  text-decoration: none;
 }
 
 /* =================================
@@ -74,4 +75,18 @@ a {
 .headline h1 {
   font-size: 2rem;
   margin: 0.25rem 0;
+}
+
+/* Menu Section Styles */
+
+.menu {
+  background-color: firebrick;
+  color: #fff;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 0;
 }
