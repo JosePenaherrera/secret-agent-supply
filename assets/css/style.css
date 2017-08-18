@@ -1,0 +1,52 @@
+/* =================================
+  Universal Styles
+==================================== */
+
+/* Base Styles */
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 18px;
+}
+
+h1,
+h4 {
+  font-weight: bold;
+}
+
+a {
+  color: #fff;
+}
+
+/* =================================
+  Main Styles
+==================================== */
+
+/* Header Styles */
+
+.top-bar {
+  background-color: #000;
+  color: #fff;
+}
+
+.top-bar .container {
+  display: flex;
+  align-items: center;
+  padding: 0.66rem 0.5rem;
+}
+
+.top-bar img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+
+/* Main Content Styles */
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
