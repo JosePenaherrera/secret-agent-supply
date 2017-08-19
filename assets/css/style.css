@@ -90,3 +90,51 @@ a {
   justify-content: space-between;
   padding: 0.75rem 0;
 }
+
+/* Products Section Styles */
+
+.products,
+.business-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0 0 0;
+}
+
+.product {
+  width: 30%;
+}
+
+.product-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid black;
+  padding: 2rem 0;
+  height: 9rem;
+}
+
+.product-image img {
+  max-width: 8rem;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: #000;
+  color: #fff;
+}
+
+/* Business Info Section Styles */
+
+.info {
+  width: 35%;
+}
+
+.info .title {
+  display: block;
+  padding: 1rem 2rem;
+  background-color: #000;
+  color: #fff;
+}
