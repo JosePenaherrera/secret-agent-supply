@@ -138,3 +138,12 @@ a {
   background-color: #000;
   color: #fff;
 }
+
+/* Footer Styles */
+
+footer {
+  margin-top: 4rem;
+  background-color: #000;
+  color: #fff;
+  padding: 5rem 0;
+}
