@@ -147,3 +147,40 @@ footer {
   color: #fff;
   padding: 5rem 0;
 }
+
+/* =================================
+  Media Queries
+==================================== */
+
+/* Screen width < than 1024 pixels */
+
+@media only screen and (max-width:1024px) {
+
+  /* Base Styles */
+
+  body {
+    font-size: 16px;
+  }
+
+  /* Menu Section Styles */
+
+  .main-nav {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+    text-align: center;
+    padding: 0.75rem 0;
+  }
+
+  /* Products Section Styles */
+
+  .product {
+    width: 47%;
+  }
+
+  .product.glasses {
+    display: none;
+  }
+}
