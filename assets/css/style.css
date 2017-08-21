@@ -12,6 +12,7 @@ html {
 body {
   font-family: 'Helvetica', sans-serif;
   font-size: 18px;
+  overflow-x: hidden;
 }
 
 h1,
@@ -91,6 +92,10 @@ a {
   padding: 0.75rem 0;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 /* Products Section Styles */
 
 .products,
@@ -154,7 +159,7 @@ footer {
 
 /* Screen width < than 1024 pixels */
 
-@media only screen and (max-width:1024px) {
+@media only screen and (max-width: 1024px) {
 
   /* Base Styles */
 
@@ -182,5 +187,69 @@ footer {
 
   .product.glasses {
     display: none;
+  }
+}
+
+/* Screen width < than 470 pixels */
+
+@media only screen and (max-width: 470px) {
+
+  /* Main Content Styles */
+
+  .container {
+    width: 100%;
+  }
+
+  /* Banner Section Styles */
+
+  .banner {
+    height: 15rem;
+  }
+
+  .headline {
+    width: 100%;
+    padding: 1rem 0 1rem 2rem;
+    top: 8.75rem;
+    overflow-x: hidden;
+  }
+
+  .headline h1 {
+    font-size: 1rem;
+  }
+
+  .headline h4 {
+    font-size: 0.75rem;
+  }
+
+  /* Products Section Styles */
+
+  .products,
+  .business-info {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 3rem auto 0 auto;
+  }
+
+  .product {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .product.watch {
+    display: none;
+  }
+
+  /* Business Info Section Styles */
+
+  .info {
+    width: 90%;
+    margin: 0.5rem auto;
+  }
+
+  /* Footer Styles */
+
+  footer {
+    text-align: center;
   }
 }
